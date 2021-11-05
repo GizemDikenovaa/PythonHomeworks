@@ -3,7 +3,7 @@ class Person:
         self.name = name
         self.surname = surname
         self.age = age
-        self.country =country
+        self.country = country
         self.city = city
         self.talent = talent
 
