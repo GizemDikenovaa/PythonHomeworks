@@ -26,6 +26,7 @@ class question:
         net = net_true * 2
         print("Toplam puan:  {} ".format(net))
 
+
 s1 = student("Gizem", "Dikenova", "50")
 s1.show_info()
 exam = question(64, 11)
