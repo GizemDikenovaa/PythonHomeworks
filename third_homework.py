@@ -25,8 +25,7 @@ class TriggerPush(WebPush):
     def __init__(self, platform, optin, global_frequency_capping, start_date, end_date, language, push_type,
                  trigger_page):
         super().__init__(platform, optin, global_frequency_capping, start_date, end_date, language, push_type)
-
-    self.trigger_page = trigger_page
+        self.trigger_page = trigger_page
 
     def show_info(self):
         print("""Platform: {} \nOptin: {} \nGlobal Frequency Capping: {} \nStart Date:{} \nEnd Date:{} \nLanguage:{} 
@@ -98,7 +97,7 @@ p3.send_push()
 
 p4 = PriceAlertPush("Mobile", True, 4, datetime.datetime.now(), datetime.datetime.now(), "English", "Price Alert")
 p4.show_info()
-new_price = p4.discount_price(70, 20)
+new_price = p4.discount_price(50, 45)
 print(new_price)
 p4.send_push()
 
