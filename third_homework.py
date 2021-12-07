@@ -101,6 +101,6 @@ new_price = p4.discount_price(50, 45)
 print(new_price)
 p4.send_push()
 
-p5 = InstockPush("Mobile", True, 5, datetime.datetime.now(), datetime.datetime.now(), "English", "Instock", True)
+p5 = InstockPush("Mobile", True, 6, datetime.datetime.now(), datetime.datetime.now(), "English", "Instock", True)
 p5.show_info()
 print(p5.stock_update())
