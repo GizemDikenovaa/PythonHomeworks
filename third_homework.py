@@ -78,7 +78,7 @@ class InstockPush(WebPush):
                                                  self.stock_info))
 
     def stock_update(self):
-        if self.stock_info == True:
+        if self.stock_info:
             return not self.stock_info
 
 
